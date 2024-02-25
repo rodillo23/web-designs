@@ -129,6 +129,11 @@ html {
   margin-bottom: 2rem;
 }
 
+.input-container{
+  display: flex;
+  align-items: center;
+}
+
 .input-group {
   position: relative;
 }
@@ -142,7 +147,7 @@ html {
   background-color: #ddd;
 }
 
-.input-group i {
+.input-group .icon {
   position: absolute;
   top: 50%;
   left: 1rem;
@@ -162,4 +167,20 @@ html {
   color: white;
   margin-top: 3rem;
   cursor: pointer;
+}
+
+.errorIcon{
+  width: 25px;
+  height: 25px;
+  color: #3aaf9f;
+  font-size: 1.5rem;
+  border: 2px solid #3aaf9f;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  right: -4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
